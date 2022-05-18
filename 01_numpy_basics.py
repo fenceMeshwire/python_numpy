@@ -14,8 +14,8 @@ b = np.random.randint(10, size=(2, 3)) # Two-dimensional array
 c = np.random.randint(10, size=(2, 3, 4)) # Three-dimensional array
 
 a # Returns array values, e.g. array([9, 4, 0, 1])
-b # Returns array values array([...])
-c # Returns array values array([[...], [...])
+b # Returns array values, e.g. array([...])
+c # Returns array values, e.g. array([[...], [...])
 
 print('Parameter c ndim: ', c.ndim)
 print('Parameter c shape: ', c.shape)
