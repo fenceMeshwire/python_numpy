@@ -19,7 +19,7 @@ sample = np.array([[3, 2, 5],
                    [4, 5, 8]])
 
 # Concatenate along the first axis (downwards, axis=0)
-np.concatenate([sample, sample]) 
+np.concatenate([sample, sample], axis=0) 
 
 # Concatenate along the second axis (to the right, axis=1)
 np.concatenate([sample, sample], axis=1)
