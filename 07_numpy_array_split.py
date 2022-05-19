@@ -30,3 +30,13 @@ print(lower)
 left, right = np.hsplit(matrix, [3]) # Split matrix at third column
 print(left)
 print(right)
+
+# Further split into upper left and upper right
+upper_left, upper_right = np.hsplit(upper, [2])
+print(upper_left)
+print(upper_right)
+
+# Further split into lower left and lower right
+lower_left, lower_right = np.hsplit(lower, [4])
+print(lower_left)
+print(lower_right)
