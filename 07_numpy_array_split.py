@@ -19,3 +19,14 @@ print(a3)   # [21 24 27]
 b = np.arange(20)
 # Four splitting points [4, 7, 10, 15], five resulting arrays
 np.split(b, [4, 7, 10, 15])
+
+matrix = np.arange(25).reshape((5, 5))
+print(matrix)
+
+upper, lower = np.vsplit(matrix, [2]) # Split matrix at second row
+print(upper)
+print(lower)
+
+left, right = np.hsplit(matrix, [3]) # Split matrix at third column
+print(left)
+print(right)
