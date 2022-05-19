@@ -20,7 +20,7 @@ b = np.arange(20)
 # Four splitting points [4, 7, 10, 15], five resulting arrays
 np.split(b, [4, 7, 10, 15])
 
-matrix = np.arange(25).reshape((5, 5))
+matrix = np.arange(25).reshape((5, 5)) # Generate a 5x5-matrix with values from 0-24
 print(matrix)
 
 upper, lower = np.vsplit(matrix, [2]) # Split matrix at second row
