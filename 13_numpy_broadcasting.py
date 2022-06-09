@@ -27,8 +27,8 @@ print(result)
 matrix_a = np.array([4, 9, 2, 4])
 matrix_b = np.array([6, 1, 7])
 
-result = matrix_a[:, np.newaxis] + matrix_b
-print(result) # Desired output
+result = matrix_a[:, np.newaxis] + matrix_b # correct notation for desired output.
+print(result)
 
 try: # Raises a ValueError.
     result = matrix_a + matrix_b
