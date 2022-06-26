@@ -21,4 +21,4 @@ storage = np.array([[0, 1, 1, 0, 1, 0],
 np.sum(storage[:,4] + storage[:,5])
 
 # Sum up the values of the first row
-np.sum(storage[:1])
+np.sum(storage[:1,])
