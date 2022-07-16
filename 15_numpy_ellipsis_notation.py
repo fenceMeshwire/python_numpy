@@ -25,3 +25,15 @@ print(matrices)
 matrices = np.arange(27).reshape((3, 3, 3))
 matrices[0, :, :] = matrices_ones # First matix: 0
 print(matrices)
+
+# ---------------------------------------------------------------------------
+# Function proposal for the application of the ellipsis notation:
+def change_matrix_values(matrices, matrix=None, m=3, r=3, c=3):
+    matrices = np.arange(27).reshape((m, r, c))
+    matrices_ones = np.ones((3, 3))
+    matrices[matrix] = matrices_ones
+    return matrices
+
+if __name__ == '__main__':
+    matrices = change_matrix_values(matrices, 0)
+    print(matrices)
