@@ -39,6 +39,6 @@ def change_matrix_values(matrix=None, m=3, r=3, c=3):
     return matrices
 
 if __name__ == '__main__':
-    matrices = change_matrix_values(0, 4, 3, 3)
+    matrices = change_matrix_values(0, 3, 3, 3)
     print(matrices)
 # ---------------------------------------------------------------------------
