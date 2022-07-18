@@ -27,3 +27,6 @@ img_arary.shape, img_arary.dtype
 # Converting a color image to a grayscale image
 gray_img = image.convert("L")
 gray_img.show()
+
+# Save gray image
+gray_img = gray_img.save('sample_gray.png')
