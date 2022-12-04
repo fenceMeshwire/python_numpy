@@ -4,6 +4,14 @@
 
 # 02_numpy_array_indexing.py
 
+#     Indexing of a two-dimensional array
+# 
+#                       axis 1 ->
+#                       col-0   col-1   col-2
+#     axis 0    row-0   0.0     0.1     0.2
+#        |      row-1   1.0     1.1     1.2
+#        V      row-2   2.0     2.1     2.2
+
 # Dependency
 import numpy as np
 
