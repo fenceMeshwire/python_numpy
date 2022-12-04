@@ -4,6 +4,8 @@
 
 # 13_numpy_broadcasting.py
 
+# Broadcasting: NumPy operations between arrays of same or different size.
+
 # Dependency
 import numpy as np
 
