@@ -9,6 +9,7 @@ import numpy as np
 import os, platform
 from pathlib import Path
 
+# Previously set the current working directory. The data will be stored in this directory.
 if os.name == 'nt' or platform.system() == 'Windows':
     path = 'C:\\...'
     os.chdir(path)
